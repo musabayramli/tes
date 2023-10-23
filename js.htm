@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let num = "+994(50) 123-456";
+        let arr = []
+
+        for (let i = 0; i < num.length; i++) {
+            let eded = +num[i]
+            console.log(eded);
+            if (!isNaN(eded)) {
+                
+                arr.push(eded)
+            }
+
+        }
+        console.log(arr);
+    </script>
+</body>
+
+</html>
